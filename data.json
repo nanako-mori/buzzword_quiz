@@ -1,0 +1,72 @@
+[
+  {
+    "id": "pepper_mill",
+    "word": "ペッパーミル・パフォーマンス",
+    "year": "2023",
+    "genre": "baseball",
+    "url": "https://www.jiyu.co.jp/singo/index.php?eid=00040"
+  },
+  {
+    "id": "kyukyoku",
+    "word": "究極",
+    "year": "1986",
+    "genre": "comic",
+    "url": "https://www.jiyu.co.jp/singo/index.php?eid=00003"
+  },
+  {
+    "id": "fast_fashion",
+    "word": "ファストファッション",
+    "year": "2009",
+    "genre": "fashion",
+    "url": "https://www.jiyu.co.jp/singo/index.php?eid=00026"
+  },
+  {
+    "id": "pay",
+    "word": "◯◯ペイ",
+    "year": "2019",
+    "genre": "economy",
+    "url": "https://www.jiyu.co.jp/singo/index.php?eid=00036"
+  },
+  {
+    "id": "young_mama",
+    "word": "ヤンママ",
+    "year": "1994",
+    "genre": "mother",
+    "url": "https://www.jiyu.co.jp/singo/index.php?eid=00011"
+  },
+  {
+    "id": "bakugai",
+    "word": "爆買い",
+    "year": "2015",
+    "genre": "sightseeing",
+    "url": "https://www.jiyu.co.jp/singo/index.php?eid=00032"
+  },
+  {
+    "id": "before_after",
+    "word": "ビフォー アフター",
+    "year": "2003",
+    "genre": "tv",
+    "url": "https://www.jiyu.co.jp/singo/index.php?eid=00020"
+  },
+  {
+    "id": "ikaten",
+    "word": "イカ天",
+    "year": "1989",
+    "genre": "music",
+    "url": "https://www.jiyu.co.jp/singo/index.php?eid=00006"
+  },
+  {
+    "id": "mokushoku",
+    "word": "黙食",
+    "year": "2021",
+    "genre": "covid19",
+    "url": "https://www.jiyu.co.jp/singo/index.php?eid=00038"
+  },
+  {
+    "id": "hanikami_ouji",
+    "word": "ハニカミ王子",
+    "year": "2007",
+    "genre": "golf",
+    "url": "https://www.jiyu.co.jp/singo/index.php?eid=00024"
+  }
+]
