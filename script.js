@@ -26,4 +26,30 @@ $(document).ready(function(){
       $(this).text('はずれ‥').addClass('gray');
     }
   });
+
+  const length = $('.js-slide li').length;
+  const width = $('.js-slide').children('li').width();
+  console.log('width:', width);
+  let index = 0;
+
+  $('.js-next').on('click', function(){
+    $('.js-next').prop('disabled', false);
+    $('.js-prev').prop('disabled', false);
+    if(index < (length - 1)) {
+      index++;
+      $('.js-slide').css('transform', `translateX(${-(width * index)}px)`);
+    } else {
+      $('.js-next').prop('disabled', true);
+    }
+  });
+  $('.js-prev').on('click', function(){
+    $('.js-next').prop('disabled', false);
+    $('.js-prev').prop('disabled', false);
+    if(index > 0) {
+      index--;
+      $('.js-slide').css('transform', `translateX(${-(width * index)}px)`);
+    } else {
+      $('.js-prev').prop('disabled', true);
+    }
+  })
 });

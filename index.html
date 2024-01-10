@@ -9,187 +9,185 @@
   <title>流行語受賞年クイズ</title>
 </head>
 <body>
-  <section class="flex-column-center">
+  <div>
     <h1>以下の流行語の受賞年は？</h1>
-    <div class="wrapper" id="pepper_mill">
-      <div class="inner">
-        <p class="heading">ペッパーミル・パフォーマンス</p>
-        <img class="thumb" src="./images/pepper_mill_kosyouhiki.png">
-        <div class="answer d-none">
-          「ペッパーミル・パフォーマンス」の流行は 2023年 でした！
-        </div>
-        <div class="btn-group d-flex">
-          <p class="check" data-year="2015">2015年</p>
-          <p class="check" data-year="2022">2022年</p>
-          <p class="check" data-year="2023">2023年</p>
-        </div>
-        <div class="d-flex">
-          <a class="next" href="#kyukyoku">次に進む</a>
-        </div>
+    <div class="slide-container">
+      <div class="slide-area">
+        <ul class="slide-list js-slide">
+          <li class="slide-list-item wrapper" id="pepper_mill">
+            <div class="inner">
+              <p class="heading">ペッパーミル・パフォーマンス</p>
+              <div class="img-wrap">
+                <img class="thumb" src="./images/pepper_mill_kosyouhiki.png">
+              </div>
+              <div class="answer d-none">
+                「ペッパーミル・パフォーマンス」の流行は 2023年 でした！
+              </div>
+              <div class="btn-group d-flex">
+                <p class="check" data-year="2015">2015年</p>
+                <p class="check" data-year="2022">2022年</p>
+                <p class="check" data-year="2023">2023年</p>
+              </div>
+            </div>
+          </li>
+          <li class="slide-list-item wrapper" id="kyukyoku">
+            <div class="inner">
+              <p class="heading">究極</p>
+              <div class="img-wrap">
+                <img class="thumb" src="./images/gourmet_man.png">
+              </div>
+              <div class="answer d-none">
+                「究極」の流行は 1986年 でした！
+              </div>
+              <div class="btn-group d-flex">
+                <p class="check" data-year="1986">1986年</p>
+                <p class="check" data-year="1990">1990年</p>
+                <p class="check" data-year="1997">1997年</p>
+              </div>
+            </div>
+          </li>
+          <li class="slide-list-item wrapper" id="fast_fashion">
+            <div class="inner">
+              <p class="heading">ファストファッション</p>
+              <div class="img-wrap">
+                <img class="thumb" src="./images/building_fashion.png">
+              </div>
+              <div class="answer d-none">
+                「ファストファッション」の流行は 2009年 でした！
+              </div>
+              <div class="btn-group d-flex">
+                <p class="check" data-year="2007">2007年</p>
+                <p class="check" data-year="2009">2009年</p>
+                <p class="check" data-year="2011">2011年</p>
+              </div>
+            </div>
+          </li>
+          <li class="slide-list-item wrapper" id="pay">
+            <div class="inner">
+              <p class="heading">◯◯ペイ</p>
+              <div class="img-wrap">
+                <img class="thumb" src="./images/smartphone_app_pay_ranritsu.png">
+              </div>
+              <div class="answer d-none">
+                「◯◯ペイ」の流行は 2019年 でした！
+              </div>
+              <div class="btn-group d-flex">
+                <p class="check" data-year="2019">2019年</p>
+                <p class="check" data-year="2020">2020年</p>
+                <p class="check" data-year="2021">2021年</p>
+              </div>
+            </div>
+          </li>
+          <li class="slide-list-item wrapper" id="young_mama">
+            <div class="inner">
+              <p class="heading">ヤンママ</p>
+              <div class="img-wrap">
+                <img class="thumb" src="./images/gal.png">
+              </div>
+              <div class="answer d-none">
+                「ヤンママ」の流行は 1994年 でした！
+              </div>
+              <div class="btn-group d-flex">
+                <p class="check" data-year="1991">1991年</p>
+                <p class="check" data-year="1994">1994年</p>
+                <p class="check" data-year="1996">1996年</p>
+              </div>
+            </div>
+          </li>
+          <li class="slide-list-item wrapper" id="bakugai">
+            <div class="inner">
+              <p class="heading">爆買い</p>
+              <div class="img-wrap">
+                <img class="thumb" src="./images/kankou_shopping_asia.png">
+              </div>
+              <div class="answer d-none">
+                「爆買い」の流行は 2015年 でした！
+              </div>
+              <div class="btn-group d-flex">
+                <p class="check" data-year="2012">2012年</p>
+                <p class="check" data-year="2014">2014年</p>
+                <p class="check" data-year="2015">2015年</p>
+              </div>
+            </div>
+          </li>
+          <li class="slide-list-item wrapper" id="before_after">
+            <div class="inner">
+              <p class="heading">ビフォー アフター</p>
+              <div class="img-wrap">
+                <img class="thumb" src="./images/house_reform.png">
+              </div>
+              <div class="answer d-none">
+                「ビフォー アフター」の流行は 2003年 でした！
+              </div>
+              <div class="btn-group d-flex">
+                <p class="check" data-year="2000">2000年</p>
+                <p class="check" data-year="2003">2003年</p>
+                <p class="check" data-year="2005">2005年</p>
+              </div>
+            </div>
+          </li>
+          <li class="slide-list-item wrapper" id="ikaten">
+            <div class="inner">
+              <p class="heading">イカ天</p>
+              <div class="img-wrap">
+                <img class="thumb" src="./images/music_band_visual.png">
+              </div>
+              <div class="answer d-none">
+                「イカ天」の流行は 1989年 でした！
+              </div>
+              <div class="btn-group d-flex">
+                <p class="check" data-year="1989">1989年</p>
+                <p class="check" data-year="1990">1990年</p>
+                <p class="check" data-year="1991">1991年</p>
+              </div>
+            </div>
+          </li>
+          <li class="slide-list-item wrapper" id="mokushoku">
+            <div class="inner">
+              <p class="heading">黙食</p>
+              <div class="img-wrap">
+                <img class="thumb" src="./images/syokuji_boy_silent.png">
+              </div>
+              <div class="answer d-none">
+                「黙食」の流行は 2021年 でした！
+              </div>
+              <div class="btn-group d-flex">
+                <p class="check" data-year="2020">2020年</p>
+                <p class="check" data-year="2021">2021年</p>
+                <p class="check" data-year="2022">2022年</p>
+              </div>
+            </div>
+          </li>
+          <li class="slide-list-item wrapper" id="hanikami_ouji">
+            <div class="inner">
+              <p class="heading">ハニカミ王子</p>
+              <div class="img-wrap">
+                <img class="thumb" src="./images/sports_golf_man.png">
+              </div>
+              <div class="answer d-none">
+                「ハニカミ王子」の流行は 2007年 でした！
+              </div>
+              <div class="btn-group d-flex">
+                <p class="check" data-year="2005">2005年</p>
+                <p class="check" data-year="2006">2006年</p>
+                <p class="check" data-year="2007">2007年</p>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="wrapper" id="kyukyoku">
-      <div class="inner">
-        <p class="heading">究極</p>
-        <img class="thumb" src="./images/gourmet_man.png">
-        <div class="answer d-none">
-          「究極」の流行は 1986年 でした！
-        </div>
-        <div class="btn-group d-flex">
-          <p class="check" data-year="1986">1986年</p>
-          <p class="check" data-year="1990">1990年</p>
-          <p class="check" data-year="1997">1997年</p>
-        </div>
-        <div class="d-flex">
-          <a class="next" href="#pepper_mill">前に戻る</a>
-          <a class="prev" href="#fast_fashion">次に進む</a>
-        </div>
-      </div>
+    <!-- ボタンエリア -->
+    <div class="btn-area">
+      <ul class="btn-list">
+        <li class="btn-list-item">
+          <input type="button" value="<<" class="js-prev">
+        </li>
+        <li class="btn-list-item">
+          <input type="button" value=">>" class="js-next">
+        </li>
+      </ul>
     </div>
-    <div class="wrapper" id="fast_fashion">
-      <div class="inner">
-        <p class="heading">ファストファッション</p>
-        <img class="thumb" src="./images/building_fashion.png">
-        <div class="answer d-none">
-          「ファストファッション」の流行は 2009年 でした！
-        </div>
-        <div class="btn-group d-flex">
-          <p class="check" data-year="2007">2007年</p>
-          <p class="check" data-year="2009">2009年</p>
-          <p class="check" data-year="2011">2011年</p>
-        </div>
-        <div class="d-flex">
-          <a class="next" href="#kyukyoku">前に戻る</a>
-          <a class="prev" href="#pay">次に進む</a>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper" id="pay">
-      <div class="inner">
-        <p class="heading">◯◯ペイ</p>
-        <img class="thumb" src="./images/smartphone_app_pay_ranritsu.png">
-        <div class="answer d-none">
-          「◯◯ペイ」の流行は 2019年 でした！
-        </div>
-        <div class="btn-group d-flex">
-          <p class="check" data-year="2019">2019年</p>
-          <p class="check" data-year="2020">2020年</p>
-          <p class="check" data-year="2021">2021年</p>
-        </div>
-        <div class="d-flex">
-          <a class="next" href="#fast_fashion">前に戻る</a>
-          <a class="prev" href="#young_mama">次に進む</a>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper" id="young_mama">
-      <div class="inner">
-        <p class="heading">ヤンママ</p>
-        <img class="thumb" src="./images/gal.png">
-        <div class="answer d-none">
-          「ヤンママ」の流行は 1994年 でした！
-        </div>
-        <div class="btn-group d-flex">
-          <p class="check" data-year="1991">1991年</p>
-          <p class="check" data-year="1994">1994年</p>
-          <p class="check" data-year="1996">1996年</p>
-        </div>
-        <div class="d-flex">
-          <a class="next" href="#pay">前に戻る</a>
-          <a class="prev" href="#bakugai">次に進む</a>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper" id="bakugai">
-      <div class="inner">
-        <p class="heading">爆買い</p>
-        <img class="thumb" src="./images/kankou_shopping_asia.png">
-        <div class="answer d-none">
-          「爆買い」の流行は 2015年 でした！
-        </div>
-        <div class="btn-group d-flex">
-          <p class="check" data-year="2012">2012年</p>
-          <p class="check" data-year="2014">2014年</p>
-          <p class="check" data-year="2015">2015年</p>
-        </div>
-        <div class="d-flex">
-          <a class="next" href="#young_mama">前に戻る</a>
-          <a class="prev" href="#before_after">次に進む</a>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper" id="before_after">
-      <div class="inner">
-        <p class="heading">ビフォー アフター</p>
-        <img class="thumb" src="./images/house_reform.png">
-        <div class="answer d-none">
-          「ビフォー アフター」の流行は 2003年 でした！
-        </div>
-        <div class="btn-group d-flex">
-          <p class="check" data-year="2000">2000年</p>
-          <p class="check" data-year="2003">2003年</p>
-          <p class="check" data-year="2005">2005年</p>
-        </div>
-        <div class="d-flex">
-          <a class="next" href="#bakugai">前に戻る</a>
-          <a class="prev" href="#ikaten">次に進む</a>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper" id="ikaten">
-      <div class="inner">
-        <p class="heading">イカ天</p>
-        <img class="thumb" src="./images/music_band_visual.png">
-        <div class="answer d-none">
-          「イカ天」の流行は 1989年 でした！
-        </div>
-        <div class="btn-group d-flex">
-          <p class="check" data-year="1989">1989年</p>
-          <p class="check" data-year="1990">1990年</p>
-          <p class="check" data-year="1991">1991年</p>
-        </div>
-        <div class="d-flex">
-          <a class="next" href="#before_after">前に戻る</a>
-          <a class="prev" href="#mokushoku">次に進む</a>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper" id="mokushoku">
-      <div class="inner">
-        <p class="heading">黙食</p>
-        <img class="thumb" src="./images/syokuji_boy_silent.png">
-        <div class="answer d-none">
-          「黙食」の流行は 2021年 でした！
-        </div>
-        <div class="btn-group d-flex">
-          <p class="check" data-year="2020">2020年</p>
-          <p class="check" data-year="2021">2021年</p>
-          <p class="check" data-year="2022">2022年</p>
-        </div>
-        <div class="d-flex">
-          <a class="next" href="#ikaten">前に戻る</a>
-          <a class="prev" href="#hanikami_ouji">次に進む</a>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper" id="hanikami_ouji">
-      <div class="inner">
-        <p class="heading">ハニカミ王子</p>
-        <img class="thumb" src="./images/sports_golf_man.png">
-        <div class="answer d-none">
-          「ハニカミ王子」の流行は 2007年 でした！
-        </div>
-        <div class="btn-group d-flex">
-          <p class="check" data-year="2005">2005年</p>
-          <p class="check" data-year="2006">2006年</p>
-          <p class="check" data-year="2007">2007年</p>
-        </div>
-        <div class="d-flex">
-          <a class="next" href="#ikaten">前に戻る</a>
-          <a class="prev" href="#pepper_mill">次に進む</a>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
 </body>
 </html>
